@@ -11,3 +11,6 @@ genfscon sysfs /devices/platform/vendor/vendor:lge_usb_ds3/extcon/extcon4       
 
 # Sensors
 genfscon sysfs /devices/virtual/input/lge_sar_rf/onoff                                         u:object_r:sysfs_sensors:s0
+
+# Thermal
+genfscon sysfs /devices/platform/soc/soc:lge,monitor-thermal/vts_temp                          u:object_r:sysfs_thermal:s0
