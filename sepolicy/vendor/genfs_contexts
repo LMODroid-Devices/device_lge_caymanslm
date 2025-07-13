@@ -8,3 +8,6 @@ genfscon sysfs /devices/platform/soc/ae90000.qcom,dp_display/extcon/extcon5     
 genfscon sysfs /devices/platform/soc/ae90000.qcom,dp_display/extcon/extcon6                    u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/soc/ae90000.qcom,dp_display/extcon/extcon7                    u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/vendor/vendor:lge_usb_ds3/extcon/extcon4                      u:object_r:sysfs_extcon:s0
+
+# Sensors
+genfscon sysfs /devices/virtual/input/lge_sar_rf/onoff                                         u:object_r:sysfs_sensors:s0
